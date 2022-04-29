@@ -34,7 +34,7 @@ WebUI.closeBrowser()
  */
 def checkRow(WebElement row) {
 	WebElement name = row.findElement(By.xpath("div[@role='gridcell'][3]"))
-	WebUI.comment("Name=${name.getText().trim()}")
+	println "Name=${name.getText().trim()}"
 	// add more code ...
 }
 
